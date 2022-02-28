@@ -46,4 +46,4 @@ Neural Machine Translation of Rare Words with Subword Units(BPE): https://arxiv.
 
 
 # 
-추후 기회가 된다면 GAN Task도 정리해서 올려보겠다.  
+추후 기회가 된다면 GAN과 VIT도 정리해서 올려보겠다.  
