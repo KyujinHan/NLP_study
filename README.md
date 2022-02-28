@@ -34,8 +34,21 @@ WordPiece Embedding을 이용하였다.
  (BERT에서 파생된 모델들은 MLM, NSP TASK들의 단점을 보완하여 각기 다른 방법으로 Trained을 진행하였다. 이 점을 보고 Fine-tuning과 Pre-trained의 엄청난 기능을 느꼈던 것 같다..)  
 
 # GPT
-
-
+- Generative Pre-Training  
+NLP분야에서 큰 파장을 불러일으킨 GPT...  
+GPT-2는 Open AI측에서 너무나 성능이 뛰어나 공개하지 않겠다 말을 했을 정도고, 최근에 나온 GPT-3는 유료 API를 제공해 이용할 수 있도록 한다고 한다.  
+  
+BERT와는 다르게 Transformer의 Decoder부분의 일부를 가져와 사용한다.  
+확실히 Decoder를 이용하니 BERT에 비해 단어 문장 예측을 잘하고, 챗봇에 많이 이용된다.  
+  
+Unsupervised pre-training 한 후 Supervised fine-tuning 으로 이루어진다.  
+  
+라벨링된 데이터가 있다해도 비용이 많이 들고, 그러한 데이터가 대용량으로 구하기 힘들뿐더러, 100% 좋은 성능을 제공해준다고도 장담할 수 없기 때문에 라벨링이 없는 corpus token을 가져오고  
+그 이후 각 Task 목적에 맞게 Supervised Fine-tuning을 한다.  
+  
+BPE을 이용하였다.  
+  
+(논문 일부 발췌: Fine-tuning에서 업데이트 되는 파라미터 언급 ==> Overall, the only extra parameters we require during fine-tuning are Wy, and embeddings for delimiter tokens)    
 
 # 기타 논문
 1) 단어 Encoding(Tokenizer)하는 여러 Task 논문  
