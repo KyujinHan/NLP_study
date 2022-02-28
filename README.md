@@ -34,3 +34,16 @@ WordPiece Embedding을 이용하였다.
  (BERT에서 파생된 모델들은 MLM, NSP TASK들의 단점을 보완하여 각기 다른 방법으로 Trained을 진행하였다. 이 점을 보고 Fine-tuning과 Pre-trained의 엄청난 기능을 느꼈던 것 같다..)  
 
 # GPT
+
+
+
+# 기타 논문
+1) 단어 Encoding(Tokenizer)하는 여러 Task 논문  
+Efficient Estimation of Word Representations in Vector Space(word2vec): https://arxiv.org/pdf/1301.3781.pdf%C3%AC%E2%80%94%20%C3%AC%E2%80%9E%C5%93  
+Neural Machine Translation of Rare Words with Subword Units(BPE): https://arxiv.org/pdf/1508.07909.pdf  
+  
+(가장 기본적인 논문만 올렸고, BBPE나 WordPiece 등등도 시간되면 공부하는 것을 추천한다.)  
+
+
+# 
+추후 기회가 된다면 GAN Task도 정리해서 올려보겠다.  
