@@ -49,7 +49,8 @@ Unsupervised pre-training 한 후 Supervised fine-tuning 으로 이루어진다.
 BPE을 이용하였다.  
   
 (논문 일부 발췌: Fine-tuning에서 업데이트 되는 파라미터 언급 ==> Overall, the only extra parameters we require during fine-tuning are Wy, and embeddings for delimiter tokens)    
-
+(GPT 코드 구현코드를 타 GITHUB를 참고해 STUDY를 했는데.. 기억이 나질 않는다. 추후에 찾으면 출처를 밝히도록 하겠다.)  
+  
 # 기타 논문
 1) 단어 Encoding(Tokenizer)하는 여러 Task 논문  
 Efficient Estimation of Word Representations in Vector Space(word2vec): https://arxiv.org/pdf/1301.3781.pdf%C3%AC%E2%80%94%20%C3%AC%E2%80%9E%C5%93  
