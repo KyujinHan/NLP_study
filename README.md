@@ -30,7 +30,7 @@ NSP와 MLM Taks을 이용해서 BERT를 학습하고, NLP 안에 있는 수많�
   
 WordPiece Embedding을 이용하였다.  
 
-- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding: https://arxiv.org/pdf/1810.04805.pdf  
-
+- BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding: https://arxiv.org/pdf/1810.04805.pdf   
+ (BERT에서 파생된 모델들은 MLM, NSP TASK들의 단점을 보완하여 각기 다른 방법으로 Trained을 진행하였다. 이 점을 보고 Fine-tuning과 Pre-trained의 엄청난 기능을 느꼈던 것 같다..)  
 
 # GPT
